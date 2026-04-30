@@ -5,8 +5,8 @@ import pandas as pd
 import random
 
 # ----------------------------- EMAIL SETTINGS ----------------------------------------- #
-my_email = os.environ.get("my_email")
-password = os.environ.get("password")
+MY_EMAIL = os.environ.get("MY_EMAIL")
+MY_PASSWORD = os.environ.get("MY_PASSWORD")
 today = dt.datetime.now()
 
 # ----------------------------- IMPORT CSV --------------------------------------------- #
